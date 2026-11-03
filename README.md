@@ -6,22 +6,43 @@ Whether it's a movie watched yesterday or years ago, ReelNote provides an organi
 
 # Installation
 
-1. Clone the Repository 
-git clone https://github.com/joe-nguyenn/ReelNote
+**1. Clone the Repository**
 
-2. Navigate to the project directory
+```bash
+git clone https://github.com/joe-nguyenn/ReelNote.git
+```
+
+**2. Navigate to the Project Directory**
+
+```bash
 cd ReelNote
+```
 
-3. Install Django
+**3. Install Django**
+
+```bash
 python -m pip install django
+```
 
-4. Setup the databasse
+**4. Set Up the Database**
+
+```bash
 python manage.py migrate
+```
 
 # Getting Started
 
 To start ReelNote, open a terminal (make sure you are still in the project directory) and simply run:
+
+```bash
 python manage.py runserver
+```
 
 Once the server starts, open a web browser and navigate to:
+
 http://127.0.0.1:8000/
+
+To stop the server, press `Ctrl + C` in the terminal.
+
+
+
