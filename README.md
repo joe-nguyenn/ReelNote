@@ -44,5 +44,7 @@ http://127.0.0.1:8000/
 
 To stop the server, press `Ctrl + C` in the terminal.
 
+# License
 
+ReelNote is licensed under the MIT [LICENSE](LICENSE).
 
