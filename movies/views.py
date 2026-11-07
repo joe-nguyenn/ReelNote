@@ -6,7 +6,7 @@ from .forms import MovieForm
 def dashboard(request):
     return render(request, 'movies/dashboard.html')
 
-@login_required
+
 def add_movie(request):
     if request.method == 'POST':
         form = MovieForm(request.POST)
@@ -16,9 +16,9 @@ def add_movie(request):
             movie.user = request.user
             movie.save()
             return redirect('dashboard')
-        else:
-            form = MovieForm()
+    else:
+        form = MovieForm()
 
-        return render(request, 'movies/add_movie.html', {'form': form})
+    return render(request, 'movies/add_movie.html', {'form': form})
 
     
