@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <head>
+
     <title>Add Movie - ReelNote</title>
+    
 </head>
 <body>
     <h1>ReelNote</h1>
+
     <hr>
 
     <h2>Add Movie</h2>
@@ -15,6 +18,12 @@
         <button type="submit">Save Movie</button>
     </form>
 
-    <p><a href="{% url 'dashboard' %}">Back to Dashboard</a></p>
+    <br><br>
+    
+    <form action= "{% url 'dashboard' %}">
+
+    <button type="submit">Back to My Movie Diary</button>
+</form>
+
 </body>
 </html>
