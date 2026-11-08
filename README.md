@@ -48,3 +48,4 @@ To stop the server, press `Ctrl + C` in the terminal.
 
 ReelNote is licensed under the MIT [LICENSE](LICENSE).
 
+Copyright (c) Joseph B. Nguyen 2026
