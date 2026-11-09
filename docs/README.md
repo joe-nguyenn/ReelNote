@@ -2,13 +2,13 @@
 
 
 ### Context Diagram
-![Context Diagram](images/ReelNoteCONTEXT.drawio)
+![Context Diagram](images/ReelNoteCONTEXT.drawio.png)
 
 ### Container Diagram
-![Container Diagram](images/ReelNoteCONTAINER.drawio)
+![Container Diagram](images/ReelNoteCONTAINER.drawio.png)
 
 ### Components Diagram
-![Components Diagram](images/ReelNoteCOMPONENT.drawio)
+![Components Diagram](images/ReelNoteCOMPONENT.drawio.png)
 
 
 
