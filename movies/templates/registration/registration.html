@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration - ReelNote</title>
+</head>
+<body>
+    <h1>ReelNote</h1>
+    <hr>
+    <h2>Register Today</h2>
+
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+
+        <button type="submit">Register Now</button>
+    </form>
+
+    <p> Already have an account?
+
+        <a href="{% url 'login' %}">Log in here</a>
+
+    </p>
+
+    
+</body>
+
+</html>
