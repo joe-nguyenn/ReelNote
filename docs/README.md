@@ -19,6 +19,11 @@
 ![ReelNote Login Mockup](images/login.png)
 
 
+### Registration Page
+- Supports user story 1
+![Reelnote Registration Mockup](images/register.png)
+
+
 ### Dashboard Page
 - Supports user stories 3, 6, 7
 ![ReelNote Dashboard Mockup](images/dashboard.png)
@@ -44,7 +49,7 @@
 # ReelNote User Stories
 
 
-## User Stories 1 
+## User Story 1 
 
 As a **new user**, I want to **create an account** so I can **keep a personal diary of movies I have watched**. 
 
@@ -54,7 +59,7 @@ As a **new user**, I want to **create an account** so I can **keep a personal di
 - The system prevents duplicate usernames 
 
 
-## User Stories 2 
+## User Story 2 
 
 As a **registered user**, I want to **log into my account** so I can **access my personal movie diary**. 
 
@@ -65,7 +70,7 @@ As a **registered user**, I want to **log into my account** so I can **access my
 - Successfully authenticated users are redirected to their dashboard 
 
 
-## User Stories 3 
+## User Story 3 
 
 As a **registered user**, I want to **add movies I have watched** so I can **keep track of my viewing history**. 
 
@@ -75,7 +80,7 @@ As a **registered user**, I want to **add movies I have watched** so I can **kee
 - Users can save a movie to their personal diary 
 
 
-## User Stories 4 
+## User Story 4 
 
 As a **registered user**, I want to **rate movies on a scale of 1-10** so I can **remember how much I liked the movie**. 
 
@@ -86,7 +91,7 @@ As a **registered user**, I want to **rate movies on a scale of 1-10** so I can 
 - Ratings are saved with their corresponding movies 
 
 
-## User Stories 5 
+## User Story 5 
 
 As a **registered user**, I want to **write personal movie reviews** so I can **remember my thoughts and impressions after watching a movie**. 
 
@@ -97,7 +102,7 @@ As a **registered user**, I want to **write personal movie reviews** so I can **
 - Users can view their previously written reviews 
 
  
-## User Stories 6 
+## User Story 6 
 
 As a **registered user**, I want to **view my previously watched movies** so I can **revisit my ratings, reviews, and movies watched**. 
 
@@ -108,7 +113,7 @@ As a **registered user**, I want to **view my previously watched movies** so I c
 - Users can only view their own movie entries 
 
 
-## User Stories 7 
+## User Story 7 
 
 As a **registered user**, I want to **edit or delete movie entries** so I can **keep my personal movie diary accurate and organized**. 
 
