@@ -1,3 +1,22 @@
+# ReelNote Mockup
+
+
+![ReelNote Login Mockup](images/login.png)
+
+
+![ReelNote Dashboard Mockup](images/dashboard.png)
+
+
+![ReelNote View Movie Mockup](images/viewmovie.png)
+
+
+![ReelNote Add Movie Mockup](images/addmovie.png)
+
+
+![ReelNote Edit Movie Mockup](images/editmovie.png)
+
+
+
 # ReelNote User Stories
 
 
