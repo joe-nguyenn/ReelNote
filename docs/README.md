@@ -1,29 +1,43 @@
+# ReelNote C4 Diagrams
+
+
+### Context Diagram
+![Context Diagram](images/ReelNoteCONTEXT.drawio)
+
+### Container Diagram
+![Container Diagram](images/ReelNoteCONTAINER.drawio)
+
+### Components Diagram
+![Components Diagram](images/ReelNoteCOMPONENT.drawio)
+
+
+
 # ReelNote Mockup
 
-
-![ReelNote Login Mockup](images/login.png)
 ### Login Page
 - Supports user stories 1 and 2
+![ReelNote Login Mockup](images/login.png)
 
 
-![ReelNote Dashboard Mockup](images/dashboard.png)
 ### Dashboard Page
 - Supports user stories 3, 6, 7
+![ReelNote Dashboard Mockup](images/dashboard.png)
 
 
-![ReelNote View Movie Mockup](images/viewmovie.png)
 ### View a Movie Page
 - Supports user story 3, 6, 7
+![ReelNote View Movie Mockup](images/viewmovie.png)
 
 
-![ReelNote Add Movie Mockup](images/addmovie.png)
 ### Add a Movie Page
 - Supports user stories 3, 4, 5
+![ReelNote Add Movie Mockup](images/addmovie.png)
 
 
-![ReelNote Edit Movie Mockup](images/editmovie.png)
 ### Edit Movie Page
 - Supports user story 7
+
+![ReelNote Edit Movie Mockup](images/editmovie.png)
 
 
 
