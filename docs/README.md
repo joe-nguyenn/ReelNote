@@ -104,3 +104,40 @@ As a **registered user**, I want to **edit or delete movie entries** so I can **
 - Users can delete saved movie entries 
 - Changes are reflected in their movie history 
 - Users cannot edit/delete another user's entries 
+
+
+
+# ReelNote Mis-user Stories
+
+
+## Mis-user Story 1
+
+As a **malicous user**, I want to **access another user's movie diary** so I can **view their movie history, ratings, and reviews without permission**.
+
+### Mitigation Criteria:
+
+- Users must be authenticated before accessing their personal diaries
+- The system verifies that users can only view movie entries associated with their accounts
+
+
+## Mis-user Story 2
+
+As a **malicous user**, I want to **edit or delete another user's movie entries** so I can **alter/destroy their saved movies**.
+
+### Mitigation Criteria:
+
+- Users can only modify movie entries associates with their accounts
+- Unauthorized modifications attempts are rejected without changing the stored information
+- The system checks that the movie entry belongs to the logged-in user before allowing changes
+
+
+## Mis-user Story 3
+
+As a **malicous user**, I want to **trick a logged-in user into submitting an unauthorized request** so I can **modify/delete their movie entries without their knowledge**.
+
+### Mitigation Criteria:
+
+- Adding, editing, and deleting movies must use POST requests with valid CSRF tokens
+- The system rejects requests that fail CSRF validation
+
+
